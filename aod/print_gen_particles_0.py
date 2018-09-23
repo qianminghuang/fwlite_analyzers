@@ -2,7 +2,7 @@ import ROOT
 import sys
 from DataFormats.FWLite import Events, Handle
 
-events = Events (['root://cms-xrd-global.cern.ch//store/mc/RunIISummer16NanoAOD/WGToLNuG_01J_5f_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/NANOAODSIM/PUMoriond17_05Feb2018_94X_mcRun2_asymptotic_v2-v1/30000/12B7972F-B066-E811-94CF-002590E7DDE6.root'])
+events = Events (['root://cms-xrd-global.cern.ch//store/mc/RunIISummer16DR80Premix/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/AODSIM/PUMoriond17_80X_mcRun2_asymptotic_2016_TrancheIV_v6_ext1-v1/80000/EEF150FB-C5B1-E611-87B0-FA163EFD20EB.root'])
 
 genparticles, genParticlesLabel = Handle("vector<reco::GenParticle>"), "genParticles"
 
@@ -13,7 +13,7 @@ for event in events:
 #    if event.eventAuxiliary().luminosityBlock() != 2219:
 #        continue
 
-    if event.eventAuxiliary().event() != 42251686:
+    if event.eventAuxiliary().event() != 355277974:
         continue
 
     event.getByLabel(genParticlesLabel, genparticles)
