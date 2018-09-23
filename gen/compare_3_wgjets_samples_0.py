@@ -35,7 +35,7 @@ lumi = float(1)/float(1000)
 
 #events_wgjets_1 = Events (['root://cms-xrd-global.cern.ch//store/mc/RunIISummer16DR80Premix/WJetsToLNu_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/AODSIM/PUMoriond17_80X_mcRun2_asymptotic_2016_TrancheIV_v6-v1/80000/FEA483D3-AEBE-E611-B8C2-0CC47A706E5E.root','root://cms-xrd-global.cern.ch//store/mc/RunIISummer16DR80Premix/WJetsToLNu_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/AODSIM/PUMoriond17_80X_mcRun2_asymptotic_2016_TrancheIV_v6-v1/80000/FE82A657-5FC0-E611-9C47-002590DE6E5C.root','root://cms-xrd-global.cern.ch//store/mc/RunIISummer16DR80Premix/WJetsToLNu_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/AODSIM/PUMoriond17_80X_mcRun2_asymptotic_2016_TrancheIV_v6-v1/80000/FE462044-B9BE-E611-A01C-0025904B242A.root','root://cms-xrd-global.cern.ch//store/mc/RunIISummer16DR80Premix/WJetsToLNu_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/AODSIM/PUMoriond17_80X_mcRun2_asymptotic_2016_TrancheIV_v6-v1/80000/FCEAFCD3-50BE-E611-B5A5-0CC47A74524E.root','root://cms-xrd-global.cern.ch//store/mc/RunIISummer16DR80Premix/WJetsToLNu_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/AODSIM/PUMoriond17_80X_mcRun2_asymptotic_2016_TrancheIV_v6-v1/80000/FACC9665-35BF-E611-B37D-FA163EC5E4A0.root'])
 
-events_wgjets_1 = Events(['/afs/cern.ch/work/a/amlevin/tmp/F6938E48-06BF-E611-8A82-0CC47A706E5E.root','/afs/cern.ch/work/a/amlevin/tmp/F6BAB4E1-57BE-E611-ABFA-FA163EAB4B9E.root','/afs/cern.ch/work/a/amlevin/tmp/F6CBA788-BBBE-E611-8AC0-0CC47A7E6A8E.root','/afs/cern.ch/work/a/amlevin/tmp/F814E890-E1BE-E611-BA13-0CC47A00AA80.root','/afs/cern.ch/work/a/amlevin/tmp/F88E2345-78BE-E611-8ED0-0CC47A78A3F8.root','/afs/cern.ch/work/a/amlevin/tmp/FA4A76D3-00BF-E611-BCAB-0CC47A00AA80.root','/afs/cern.ch/work/a/amlevin/tmp/FACC9665-35BF-E611-B37D-FA163EC5E4A0.root','/afs/cern.ch/work/a/amlevin/tmp/FCEAFCD3-50BE-E611-B5A5-0CC47A74524E.root','/afs/cern.ch/work/a/amlevin/tmp/FE462044-B9BE-E611-A01C-0025904B242A.root','/afs/cern.ch/work/a/amlevin/tmp/FE82A657-5FC0-E611-9C47-002590DE6E5C.root','/afs/cern.ch/work/a/amlevin/tmp/FEA483D3-AEBE-E611-B8C2-0CC47A706E5E.root'])
+events_wgjets_1 = Events(['/eos/user/a/amlevin/tmp/F6938E48-06BF-E611-8A82-0CC47A706E5E.root','/eos/user/a/amlevin/tmp/F6BAB4E1-57BE-E611-ABFA-FA163EAB4B9E.root','/eos/user/a/amlevin/tmp/F6CBA788-BBBE-E611-8AC0-0CC47A7E6A8E.root','/eos/user/a/amlevin/tmp/F814E890-E1BE-E611-BA13-0CC47A00AA80.root','/eos/user/a/amlevin/tmp/F88E2345-78BE-E611-8ED0-0CC47A78A3F8.root','/eos/user/a/amlevin/tmp/FA4A76D3-00BF-E611-BCAB-0CC47A00AA80.root','/eos/user/a/amlevin/tmp/FACC9665-35BF-E611-B37D-FA163EC5E4A0.root','/eos/user/a/amlevin/tmp/FCEAFCD3-50BE-E611-B5A5-0CC47A74524E.root','/eos/user/a/amlevin/tmp/FE462044-B9BE-E611-A01C-0025904B242A.root','/eos/user/a/amlevin/tmp/FE82A657-5FC0-E611-9C47-002590DE6E5C.root','/eos/user/a/amlevin/tmp/FEA483D3-AEBE-E611-B8C2-0CC47A706E5E.root'])
 
 #events_wgjets_1 = Events(['/afs/cern.ch/work/a/amlevin/delete_this/SMP-RunIISummer15wmLHEGS-00183_NLO_W.root'])
 
@@ -43,7 +43,11 @@ events_wgjets_2 = Events (['/afs/cern.ch/work/a/amlevin/delete_this/SMP-RunIISum
 
 #events_wgjets_3 = Events(['/afs/cern.ch/user/a/amlevin/delete_this/HIG-RunIIFall17wmLHEGS-01060.root'])
 
-events_wgjets_3 = Events(['/afs/cern.ch/work/a/amlevin/delete_this/HIG-RunIIFall17wmLHEGS-01060.root.bak'])
+events_wgjets_3 = Events(['/eos/user/a/amlevin/tmp/HIG-RunIIFall17wmLHEGS-01060.3.root','/eos/user/a/amlevin/tmp/HIG-RunIIFall17wmLHEGS-01060.38.root','/eos/user/a/amlevin/tmp/HIG-RunIIFall17wmLHEGS-01060.39.root','/eos/user/a/amlevin/tmp/HIG-RunIIFall17wmLHEGS-01060.95.root','/eos/user/a/amlevin/tmp/HIG-RunIIFall17wmLHEGS-01060.59.root','/eos/user/a/amlevin/tmp/HIG-RunIIFall17wmLHEGS-01060.82.root','/eos/user/a/amlevin/tmp/HIG-RunIIFall17wmLHEGS-01060.50.root','/eos/user/a/amlevin/tmp/HIG-RunIIFall17wmLHEGS-01060.29.root','/eos/user/a/amlevin/tmp/HIG-RunIIFall17wmLHEGS-01060.92.root','/eos/user/a/amlevin/tmp/HIG-RunIIFall17wmLHEGS-01060.4.root','/eos/user/a/amlevin/tmp/HIG-RunIIFall17wmLHEGS-01060.67.root','/eos/user/a/amlevin/tmp/HIG-RunIIFall17wmLHEGS-01060.45.root','/eos/user/a/amlevin/tmp/HIG-RunIIFall17wmLHEGS-01060.71.root','/eos/user/a/amlevin/tmp/HIG-RunIIFall17wmLHEGS-01060.30.root','/eos/user/a/amlevin/tmp/HIG-RunIIFall17wmLHEGS-01060.22.root','/eos/user/a/amlevin/tmp/HIG-RunIIFall17wmLHEGS-01060.42.root','/eos/user/a/amlevin/tmp/HIG-RunIIFall17wmLHEGS-01060.75.root','/eos/user/a/amlevin/tmp/HIG-RunIIFall17wmLHEGS-01060.15.root','/eos/user/a/amlevin/tmp/HIG-RunIIFall17wmLHEGS-01060.99.root','/eos/user/a/amlevin/tmp/HIG-RunIIFall17wmLHEGS-01060.18.root','/eos/user/a/amlevin/tmp/HIG-RunIIFall17wmLHEGS-01060.32.root','/eos/user/a/amlevin/tmp/HIG-RunIIFall17wmLHEGS-01060.17.root','/eos/user/a/amlevin/tmp/HIG-RunIIFall17wmLHEGS-01060.1.root','/eos/user/a/amlevin/tmp/HIG-RunIIFall17wmLHEGS-01060.61.root','/eos/user/a/amlevin/tmp/HIG-RunIIFall17wmLHEGS-01060.91.root','/eos/user/a/amlevin/tmp/HIG-RunIIFall17wmLHEGS-01060.12.root','/eos/user/a/amlevin/tmp/HIG-RunIIFall17wmLHEGS-01060.25.root','/eos/user/a/amlevin/tmp/HIG-RunIIFall17wmLHEGS-01060.36.root','/eos/user/a/amlevin/tmp/HIG-RunIIFall17wmLHEGS-01060.31.root','/eos/user/a/amlevin/tmp/HIG-RunIIFall17wmLHEGS-01060.79.root','/eos/user/a/amlevin/tmp/HIG-RunIIFall17wmLHEGS-01060.6.root','/eos/user/a/amlevin/tmp/HIG-RunIIFall17wmLHEGS-01060.93.root','/eos/user/a/amlevin/tmp/HIG-RunIIFall17wmLHEGS-01060.94.root','/eos/user/a/amlevin/tmp/HIG-RunIIFall17wmLHEGS-01060.10.root','/eos/user/a/amlevin/tmp/HIG-RunIIFall17wmLHEGS-01060.28.root','/eos/user/a/amlevin/tmp/HIG-RunIIFall17wmLHEGS-01060.46.root','/eos/user/a/amlevin/tmp/HIG-RunIIFall17wmLHEGS-01060.81.root','/eos/user/a/amlevin/tmp/HIG-RunIIFall17wmLHEGS-01060.37.root','/eos/user/a/amlevin/tmp/HIG-RunIIFall17wmLHEGS-01060.41.root','/eos/user/a/amlevin/tmp/HIG-RunIIFall17wmLHEGS-01060.20.root','/eos/user/a/amlevin/tmp/HIG-RunIIFall17wmLHEGS-01060.24.root','/eos/user/a/amlevin/tmp/HIG-RunIIFall17wmLHEGS-01060.97.root','/eos/user/a/amlevin/tmp/HIG-RunIIFall17wmLHEGS-01060.85.root','/eos/user/a/amlevin/tmp/HIG-RunIIFall17wmLHEGS-01060.0.root','/eos/user/a/amlevin/tmp/HIG-RunIIFall17wmLHEGS-01060.83.root','/eos/user/a/amlevin/tmp/HIG-RunIIFall17wmLHEGS-01060.66.root','/eos/user/a/amlevin/tmp/HIG-RunIIFall17wmLHEGS-01060.77.root','/eos/user/a/amlevin/tmp/HIG-RunIIFall17wmLHEGS-01060.33.root','/eos/user/a/amlevin/tmp/HIG-RunIIFall17wmLHEGS-01060.23.root','/eos/user/a/amlevin/tmp/HIG-RunIIFall17wmLHEGS-01060.8.root','/eos/user/a/amlevin/tmp/HIG-RunIIFall17wmLHEGS-01060.63.root','/eos/user/a/amlevin/tmp/HIG-RunIIFall17wmLHEGS-01060.11.root','/eos/user/a/amlevin/tmp/HIG-RunIIFall17wmLHEGS-01060.60.root','/eos/user/a/amlevin/tmp/HIG-RunIIFall17wmLHEGS-01060.74.root'])
+
+
+
+#events_wgjets_3 = Events(['/afs/cern.ch/work/a/amlevin/delete_this/HIG-RunIIFall17wmLHEGS-01060.root.bak','/afs/cern.ch/work/a/amlevin/tmp/HIG-RunIIFall17wmLHEGS-01060.43.root','/afs/cern.ch/work/a/amlevin/tmp/HIG-RunIIFall17wmLHEGS-01060.55.root','/afs/cern.ch/work/a/amlevin/tmp/HIG-RunIIFall17wmLHEGS-01060.57.root','/afs/cern.ch/work/a/amlevin/tmp/HIG-RunIIFall17wmLHEGS-01060.64.root','/afs/cern.ch/work/a/amlevin/tmp/HIG-RunIIFall17wmLHEGS-01060.59.root','/afs/cern.ch/work/a/amlevin/tmp/HIG-RunIIFall17wmLHEGS-01060.73.root','/afs/cern.ch/work/a/amlevin/tmp/HIG-RunIIFall17wmLHEGS-01060.45.root','/afs/cern.ch/work/a/amlevin/tmp/HIG-RunIIFall17wmLHEGS-01060.61.root','/afs/cern.ch/work/a/amlevin/tmp/HIG-RunIIFall17wmLHEGS-01060.77.root','/afs/cern.ch/work/a/amlevin/tmp/HIG-RunIIFall17wmLHEGS-01060.51.root','/afs/cern.ch/work/a/amlevin/tmp/HIG-RunIIFall17wmLHEGS-01060.44.root','/afs/cern.ch/work/a/amlevin/tmp/HIG-RunIIFall17wmLHEGS-01060.65.root','/afs/cern.ch/work/a/amlevin/tmp/HIG-RunIIFall17wmLHEGS-01060.75.root','/afs/cern.ch/work/a/amlevin/tmp/HIG-RunIIFall17wmLHEGS-01060.42.root','/afs/cern.ch/work/a/amlevin/tmp/HIG-RunIIFall17wmLHEGS-01060.41.root','/afs/cern.ch/work/a/amlevin/tmp/HIG-RunIIFall17wmLHEGS-01060.54.root','/afs/cern.ch/work/a/amlevin/tmp/HIG-RunIIFall17wmLHEGS-01060.53.root'])
 
 #events_wgjets_3 = Events(['/afs/cern.ch/work/a/amlevin/delete_this/HIG-RunIIFall17wmLHEGS-01060_NLO_POWHEG.root'])
 
@@ -248,7 +252,7 @@ countweighted = 0
 
 for event in events_wgjets_2:
 
-    if count > 10000:
+    if count > 50000:
         break
 
     if count % 10000 == 0:
@@ -368,7 +372,7 @@ countweighted = 0
 
 for event in events_wgjets_3:
 
-    if count > 10000:
+    if count > 500000:
         break
 
     if count % 10000 == 0:
@@ -404,7 +408,7 @@ for event in events_wgjets_3:
     for p in genparticles.product() :
 
 #        if abs(p.pdgId()) == 11 and p.pt() > 25 and (p.statusFlags().isPrompt() or p.statusFlags().isPromptTauDecayProduct()) and p.status() == 1  :
-        if p.pdgId() == -11 and p.pt() > 25 and abs(p.eta()) < 2.47 and p.status() == 1  :
+        if p.pdgId() == -11 and p.pt() > 25 and abs(p.eta()) < 2.47 and p.status() == 1 and p.statusFlags().isPrompt() :
             nelectrons += 1
             electron = p
 
