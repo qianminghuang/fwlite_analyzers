@@ -28,7 +28,7 @@ def deltaR(eta1,phi1,eta2=None,phi2=None):
 
 lumi = float(1)/float(1000)
 
-events_wgjets_1 = Events (['/eos/user/a/amlevin/tmp/wp3leptonflavors.10.root','/eos/user/a/amlevin/tmp/wp3leptonflavors.13.root','/eos/user/a/amlevin/tmp/wp3leptonflavors.15.root','/eos/user/a/amlevin/tmp/wp3leptonflavors.16.root','/eos/user/a/amlevin/tmp/wp3leptonflavors.17.root','/eos/user/a/amlevin/tmp/wp3leptonflavors.19.root','/eos/user/a/amlevin/tmp/wp3leptonflavors.1.root','/eos/user/a/amlevin/tmp/wp3leptonflavors.22.root','/eos/user/a/amlevin/tmp/wp3leptonflavors.23.root','/eos/user/a/amlevin/tmp/wp3leptonflavors.25.root','/eos/user/a/amlevin/tmp/wp3leptonflavors.32.root','/eos/user/a/amlevin/tmp/wp3leptonflavors.34.root','/eos/user/a/amlevin/tmp/wp3leptonflavors.38.root','/eos/user/a/amlevin/tmp/wp3leptonflavors.39.root','/eos/user/a/amlevin/tmp/wp3leptonflavors.3.root','/eos/user/a/amlevin/tmp/wp3leptonflavors.40.root','/eos/user/a/amlevin/tmp/wp3leptonflavors.43.root','/eos/user/a/amlevin/tmp/wp3leptonflavors.8.root'])
+events_wgjets_1 = Events (['/eos/user/a/amlevin/tmp/wp3leptonflavors.0.root','/eos/user/a/amlevin/tmp/wp3leptonflavors.10.root','/eos/user/a/amlevin/tmp/wp3leptonflavors.11.root','/eos/user/a/amlevin/tmp/wp3leptonflavors.12.root','/eos/user/a/amlevin/tmp/wp3leptonflavors.13.root','/eos/user/a/amlevin/tmp/wp3leptonflavors.14.root','/eos/user/a/amlevin/tmp/wp3leptonflavors.15.root','/eos/user/a/amlevin/tmp/wp3leptonflavors.16.root','/eos/user/a/amlevin/tmp/wp3leptonflavors.17.root','/eos/user/a/amlevin/tmp/wp3leptonflavors.18.root','/eos/user/a/amlevin/tmp/wp3leptonflavors.19.root','/eos/user/a/amlevin/tmp/wp3leptonflavors.1.root','/eos/user/a/amlevin/tmp/wp3leptonflavors.20.root','/eos/user/a/amlevin/tmp/wp3leptonflavors.21.root','/eos/user/a/amlevin/tmp/wp3leptonflavors.22.root','/eos/user/a/amlevin/tmp/wp3leptonflavors.23.root','/eos/user/a/amlevin/tmp/wp3leptonflavors.24.root','/eos/user/a/amlevin/tmp/wp3leptonflavors.25.root','/eos/user/a/amlevin/tmp/wp3leptonflavors.26.root','/eos/user/a/amlevin/tmp/wp3leptonflavors.27.root','/eos/user/a/amlevin/tmp/wp3leptonflavors.28.root','/eos/user/a/amlevin/tmp/wp3leptonflavors.29.root','/eos/user/a/amlevin/tmp/wp3leptonflavors.2.root','/eos/user/a/amlevin/tmp/wp3leptonflavors.30.root','/eos/user/a/amlevin/tmp/wp3leptonflavors.31.root','/eos/user/a/amlevin/tmp/wp3leptonflavors.32.root','/eos/user/a/amlevin/tmp/wp3leptonflavors.33.root','/eos/user/a/amlevin/tmp/wp3leptonflavors.34.root','/eos/user/a/amlevin/tmp/wp3leptonflavors.35.root','/eos/user/a/amlevin/tmp/wp3leptonflavors.36.root','/eos/user/a/amlevin/tmp/wp3leptonflavors.37.root','/eos/user/a/amlevin/tmp/wp3leptonflavors.38.root','/eos/user/a/amlevin/tmp/wp3leptonflavors.39.root','/eos/user/a/amlevin/tmp/wp3leptonflavors.3.root','/eos/user/a/amlevin/tmp/wp3leptonflavors.40.root','/eos/user/a/amlevin/tmp/wp3leptonflavors.41.root','/eos/user/a/amlevin/tmp/wp3leptonflavors.42.root','/eos/user/a/amlevin/tmp/wp3leptonflavors.43.root','/eos/user/a/amlevin/tmp/wp3leptonflavors.44.root','/eos/user/a/amlevin/tmp/wp3leptonflavors.45.root','/eos/user/a/amlevin/tmp/wp3leptonflavors.46.root','/eos/user/a/amlevin/tmp/wp3leptonflavors.47.root','/eos/user/a/amlevin/tmp/wp3leptonflavors.48.root','/eos/user/a/amlevin/tmp/wp3leptonflavors.49.root','/eos/user/a/amlevin/tmp/wp3leptonflavors.4.root','/eos/user/a/amlevin/tmp/wp3leptonflavors.50.root','/eos/user/a/amlevin/tmp/wp3leptonflavors.51.root','/eos/user/a/amlevin/tmp/wp3leptonflavors.52.root','/eos/user/a/amlevin/tmp/wp3leptonflavors.53.root','/eos/user/a/amlevin/tmp/wp3leptonflavors.54.root','/eos/user/a/amlevin/tmp/wp3leptonflavors.55.root','/eos/user/a/amlevin/tmp/wp3leptonflavors.56.root','/eos/user/a/amlevin/tmp/wp3leptonflavors.57.root','/eos/user/a/amlevin/tmp/wp3leptonflavors.58.root','/eos/user/a/amlevin/tmp/wp3leptonflavors.59.root','/eos/user/a/amlevin/tmp/wp3leptonflavors.5.root','/eos/user/a/amlevin/tmp/wp3leptonflavors.60.root','/eos/user/a/amlevin/tmp/wp3leptonflavors.61.root','/eos/user/a/amlevin/tmp/wp3leptonflavors.62.root','/eos/user/a/amlevin/tmp/wp3leptonflavors.63.root','/eos/user/a/amlevin/tmp/wp3leptonflavors.64.root','/eos/user/a/amlevin/tmp/wp3leptonflavors.65.root','/eos/user/a/amlevin/tmp/wp3leptonflavors.66.root','/eos/user/a/amlevin/tmp/wp3leptonflavors.67.root','/eos/user/a/amlevin/tmp/wp3leptonflavors.68.root','/eos/user/a/amlevin/tmp/wp3leptonflavors.69.root','/eos/user/a/amlevin/tmp/wp3leptonflavors.6.root','/eos/user/a/amlevin/tmp/wp3leptonflavors.70.root','/eos/user/a/amlevin/tmp/wp3leptonflavors.71.root','/eos/user/a/amlevin/tmp/wp3leptonflavors.72.root','/eos/user/a/amlevin/tmp/wp3leptonflavors.73.root','/eos/user/a/amlevin/tmp/wp3leptonflavors.74.root','/eos/user/a/amlevin/tmp/wp3leptonflavors.75.root','/eos/user/a/amlevin/tmp/wp3leptonflavors.76.root','/eos/user/a/amlevin/tmp/wp3leptonflavors.77.root','/eos/user/a/amlevin/tmp/wp3leptonflavors.78.root','/eos/user/a/amlevin/tmp/wp3leptonflavors.79.root','/eos/user/a/amlevin/tmp/wp3leptonflavors.7.root','/eos/user/a/amlevin/tmp/wp3leptonflavors.82.root','/eos/user/a/amlevin/tmp/wp3leptonflavors.8.root','/eos/user/a/amlevin/tmp/wp3leptonflavors.9.root'])
 
 events_wgjets_2 = Events(['/eos/user/a/amlevin/tmp/HIG-RunIIFall17wmLHEGS-01060.38.root','/eos/user/a/amlevin/tmp/HIG-RunIIFall17wmLHEGS-01060.39.root','/eos/user/a/amlevin/tmp/HIG-RunIIFall17wmLHEGS-01060.95.root','/eos/user/a/amlevin/tmp/HIG-RunIIFall17wmLHEGS-01060.59.root','/eos/user/a/amlevin/tmp/HIG-RunIIFall17wmLHEGS-01060.82.root','/eos/user/a/amlevin/tmp/HIG-RunIIFall17wmLHEGS-01060.50.root','/eos/user/a/amlevin/tmp/HIG-RunIIFall17wmLHEGS-01060.29.root','/eos/user/a/amlevin/tmp/HIG-RunIIFall17wmLHEGS-01060.92.root','/eos/user/a/amlevin/tmp/HIG-RunIIFall17wmLHEGS-01060.67.root','/eos/user/a/amlevin/tmp/HIG-RunIIFall17wmLHEGS-01060.45.root','/eos/user/a/amlevin/tmp/HIG-RunIIFall17wmLHEGS-01060.71.root','/eos/user/a/amlevin/tmp/HIG-RunIIFall17wmLHEGS-01060.30.root','/eos/user/a/amlevin/tmp/HIG-RunIIFall17wmLHEGS-01060.22.root','/eos/user/a/amlevin/tmp/HIG-RunIIFall17wmLHEGS-01060.42.root','/eos/user/a/amlevin/tmp/HIG-RunIIFall17wmLHEGS-01060.75.root','/eos/user/a/amlevin/tmp/HIG-RunIIFall17wmLHEGS-01060.15.root','/eos/user/a/amlevin/tmp/HIG-RunIIFall17wmLHEGS-01060.99.root','/eos/user/a/amlevin/tmp/HIG-RunIIFall17wmLHEGS-01060.18.root','/eos/user/a/amlevin/tmp/HIG-RunIIFall17wmLHEGS-01060.32.root','/eos/user/a/amlevin/tmp/HIG-RunIIFall17wmLHEGS-01060.17.root','/eos/user/a/amlevin/tmp/HIG-RunIIFall17wmLHEGS-01060.61.root','/eos/user/a/amlevin/tmp/HIG-RunIIFall17wmLHEGS-01060.91.root','/eos/user/a/amlevin/tmp/HIG-RunIIFall17wmLHEGS-01060.12.root','/eos/user/a/amlevin/tmp/HIG-RunIIFall17wmLHEGS-01060.25.root','/eos/user/a/amlevin/tmp/HIG-RunIIFall17wmLHEGS-01060.36.root','/eos/user/a/amlevin/tmp/HIG-RunIIFall17wmLHEGS-01060.31.root','/eos/user/a/amlevin/tmp/HIG-RunIIFall17wmLHEGS-01060.79.root','/eos/user/a/amlevin/tmp/HIG-RunIIFall17wmLHEGS-01060.93.root','/eos/user/a/amlevin/tmp/HIG-RunIIFall17wmLHEGS-01060.94.root','/eos/user/a/amlevin/tmp/HIG-RunIIFall17wmLHEGS-01060.10.root','/eos/user/a/amlevin/tmp/HIG-RunIIFall17wmLHEGS-01060.28.root','/eos/user/a/amlevin/tmp/HIG-RunIIFall17wmLHEGS-01060.46.root','/eos/user/a/amlevin/tmp/HIG-RunIIFall17wmLHEGS-01060.81.root','/eos/user/a/amlevin/tmp/HIG-RunIIFall17wmLHEGS-01060.37.root','/eos/user/a/amlevin/tmp/HIG-RunIIFall17wmLHEGS-01060.41.root','/eos/user/a/amlevin/tmp/HIG-RunIIFall17wmLHEGS-01060.20.root','/eos/user/a/amlevin/tmp/HIG-RunIIFall17wmLHEGS-01060.24.root','/eos/user/a/amlevin/tmp/HIG-RunIIFall17wmLHEGS-01060.97.root','/eos/user/a/amlevin/tmp/HIG-RunIIFall17wmLHEGS-01060.85.root','/eos/user/a/amlevin/tmp/HIG-RunIIFall17wmLHEGS-01060.83.root','/eos/user/a/amlevin/tmp/HIG-RunIIFall17wmLHEGS-01060.66.root','/eos/user/a/amlevin/tmp/HIG-RunIIFall17wmLHEGS-01060.77.root','/eos/user/a/amlevin/tmp/HIG-RunIIFall17wmLHEGS-01060.33.root','/eos/user/a/amlevin/tmp/HIG-RunIIFall17wmLHEGS-01060.23.root','/eos/user/a/amlevin/tmp/HIG-RunIIFall17wmLHEGS-01060.63.root','/eos/user/a/amlevin/tmp/HIG-RunIIFall17wmLHEGS-01060.11.root','/eos/user/a/amlevin/tmp/HIG-RunIIFall17wmLHEGS-01060.60.root','/eos/user/a/amlevin/tmp/HIG-RunIIFall17wmLHEGS-01060.74.root'])
 
@@ -90,7 +90,7 @@ countweighted = 0
 
 for event in events_wgjets_1:
 
-    if count > 50000:
+    if count > 1000000:
 #    if count > -1:
         break
 
@@ -123,43 +123,28 @@ for event in events_wgjets_1:
 
     nelectrons = 0
 
+    nphotons = 0        
+
     for p in genparticles.product() :
         
-#        if abs(p.pdgId()) == 11 and p.pt() > 25 and (p.statusFlags().isPrompt() or p.statusFlags().isPromptTauDecayProduct()) and p.status() == 1  :
         if p.pdgId() == -11 and p.pt() > 25 and abs(p.eta()) < 2.47 and p.status() == 1  and p.statusFlags().isPrompt():
             nelectrons += 1
             electron = p
 
-#    print "nelectrons = "+str(nelectrons)
-
-    if nelectrons != 1:
-        continue
-
-    nphotons = 0        
-
-    for p in genparticles.product() :
-
-#        if abs(p.pdgId()) == 22 and p.pt() > 25 and (p.statusFlags().isPrompt() or p.statusFlags().isPromptTauDecayProduct()) and p.status() == 1   :
-#        if abs(p.pdgId()) == 22 and p.pt() > 15 and abs(p.eta()) < 2.37 and p.status() == 1 and p.statusFlags().isPrompt()  :
         if abs(p.pdgId()) == 22 and p.pt() > 15 and abs(p.eta()) < 2.37 and p.status() == 1  and p.statusFlags().isPrompt():
             nphotons += 1
             photon = p
 
-#    print "nphotons = "+str(nphotons)
+
+    if nelectrons != 1:
+        continue
+
 
     if nphotons != 1:
         continue
 
     if deltaR(electron.eta(), electron.phi(), photon.eta(), photon.phi()) < 0.7:
         continue
-
-    njets = 0        
-
-    for p in genparticles.product() :
-
-#        if (abs(p.pdgId()) == 1 or abs(p.pdgId()) == 2 or abs(p.pdgId()) == 3 or abs(p.pdgId()) == 4 or abs(p.pdgId()) == 5 or abs(p.pdgId()) == 21) and p.pt() > 30 and p.statusFlags().isPrompt() and p.statusFlags().isLastCopy()  :
-        if (abs(p.pdgId()) == 1 or abs(p.pdgId()) == 2) and p.pt() > 30 :
-            njets +=1
 
     njets = npartons 
 
@@ -211,7 +196,7 @@ countweighted = 0
 
 for event in events_wgjets_2:
 
-    if count > 50000:
+    if count > 500000:
 #    if count > -1:
         break
 
@@ -245,45 +230,28 @@ for event in events_wgjets_2:
 
     nelectrons = 0
 
-    for p in genparticles.product() :
-
-#        if abs(p.pdgId()) == 11 and p.pt() > 25 and (p.statusFlags().isPrompt() or p.statusFlags().isPromptTauDecayProduct()) and p.status() == 1  :
-        if p.pdgId() == -11 and p.pt() > 25 and abs(p.eta()) < 2.47 and p.status() == 1 and p.statusFlags().isPrompt() :
-            nelectrons += 1
-            electron = p
-
-#    print "nelectrons = "+str(nelectrons)
-
-    if nelectrons != 1:
-        continue
-
     nphotons = 0        
 
     for p in genparticles.product() :
 
-#        if abs(p.pdgId()) == 22 and p.pt() > 25 and (p.statusFlags().isPrompt() or p.statusFlags().isPromptTauDecayProduct()) and p.status() == 1   
-         if abs(p.pdgId()) == 22 and p.pt() > 15 and abs(p.eta()) < 2.37 and p.status() == 1 and p.statusFlags().isPrompt()  :
-#        if abs(p.pdgId()) == 22 and p.pt() > 15 and abs(p.eta()) < 10 and p.status() == 1 :
-#        if abs(p.pdgId()) == 22 and p.pt() > 15 and abs(p.eta()) < 10 and p.status() == 1 and p.statusFlags().isPrompt():
+        if p.pdgId() == -11 and p.pt() > 25 and abs(p.eta()) < 2.47 and p.status() == 1 and p.statusFlags().isPrompt() :
+            nelectrons += 1
+            electron = p
 
+        if abs(p.pdgId()) == 22 and p.pt() > 15 and abs(p.eta()) < 2.37 and p.status() == 1 and p.statusFlags().isPrompt()  :
+            
             nphotons += 1
             photon = p
 
-#    print "nphotons = "+str(nphotons)
+
+    if nelectrons != 1:
+        continue
 
     if nphotons != 1:
         continue
 
     if deltaR(electron.eta(), electron.phi(), photon.eta(), photon.phi()) < 0.7:
         continue
-
-    njets = 0        
-
-    for p in genparticles.product() :
-
-#        if (abs(p.pdgId()) == 1 or abs(p.pdgId()) == 2 or abs(p.pdgId()) == 3 or abs(p.pdgId()) == 4 or abs(p.pdgId()) == 5 or abs(p.pdgId()) == 21) and p.pt() > 30 and p.statusFlags().isPrompt() and p.statusFlags().isLastCopy()  :
-        if (abs(p.pdgId()) == 1 or abs(p.pdgId()) == 2) and p.pt() > 30 :
-            njets +=1
 
     njets = npartons 
 
