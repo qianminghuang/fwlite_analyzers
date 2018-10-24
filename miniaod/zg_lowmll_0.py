@@ -55,7 +55,10 @@ for event in events:
         n_4_muon_events += 1
 
     if n_mu_minus == 1 and n_mu_plus == 1:
-        hist_mll.Fill((mu_plus_p4+mu_minus_p4).M())
+        if gen.weight() > 0:
+            hist_mll.Fill((mu_plus_p4+mu_minus_p4).M())
+        else:
+            hist_mll.Fill((mu_plus_p4+mu_minus_p4).M(),-1)
 
 c = ROOT.TCanvas()
 
