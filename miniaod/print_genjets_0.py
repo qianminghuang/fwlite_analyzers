@@ -7,16 +7,11 @@ events = Events (['root://cms-xrd-global.cern.ch//store/mc/RunIISummer16MiniAODv
 handleGenJets  = Handle ("std::vector<reco::GenJet>")
 labelGenJets = ("slimmedGenJets")
 
-
-# loop over events
-count= 0
-
 for event in events:
 
     if event.eventAuxiliary().event() != 299896:
         continue
 
-    #it is explained in https://sft.its.cern.ch/jira/browse/ROOT-5041 why there is a "[?1034h" at the beginning of the output when it is piped into a file
     print "run %6d, lumi %4d, event %12d" % (event.eventAuxiliary().run(), event.eventAuxiliary().luminosityBlock(),event.eventAuxiliary().event())
  
     event.getByLabel (labelGenJets, handleGenJets)
