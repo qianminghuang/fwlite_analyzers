@@ -2,7 +2,7 @@ import ROOT
 import sys
 from DataFormats.FWLite import Events, Handle
 
-from math import hypot, pi
+from math import hypot, pi, sqrt
 
 def deltaPhi(phi1,phi2):
     ## Catch if being called with two objects                                                                                                                                             
@@ -25,15 +25,19 @@ def deltaR(eta1,phi1,eta2=None,phi2=None):
 
 lumi = float(1)/float(1000)
 
-events = Events(['/afs/cern.ch/work/a/amlevin/delete_this/SMP-RunIIWinter15pLHE-00008.root'])
+events = Events(['/afs/cern.ch/work/a/amlevin/delete_this/mg5_aMC0jetsnlolhe.root'])
 
 handleLHEEventProduct  = Handle ("LHEEventProduct")
 labelLHEEventProduct = ("source")
 
 n_weighted_run_over = 0
+n_run_over = 0
 n_weighted_selected = 0
+n_selected = 0
 
 for event in events:
+
+    n_run_over += 1
 
     event.getByLabel (labelLHEEventProduct, handleLHEEventProduct)
 
@@ -67,6 +71,8 @@ for event in events:
     if  deltaR(v_pho.Eta(),v_pho.Phi(),v_lep.Eta(),v_lep.Phi())  < 0.7:
         continue
 
+    n_selected += 1
+
     if lheevent.originalXWGTUP() > 0:
         n_weighted_selected += 1
     else:
@@ -77,3 +83,5 @@ acc = float(n_weighted_selected) / n_weighted_run_over
 xs = 155.9
 
 print xs * acc
+
+print xs*sqrt(float(n_selected)/float(pow(n_weighted_run_over,2)) + float(n_run_over)*float(pow(n_weighted_selected,2))/float(pow(n_weighted_run_over,4)) )
