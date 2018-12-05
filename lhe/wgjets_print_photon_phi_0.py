@@ -10,9 +10,9 @@ lumi = float(1)/float(1000)
 
 #events = Events(['/afs/cern.ch//work/a/amlevin/list_root/MiniAOD_5044046_0.root'])
 
-events = Events(['/afs/cern.ch//work/a/amlevin/list_root/MiniAOD_5044046_1000.root'])
+#events = Events(['/afs/cern.ch//work/a/amlevin/list_root/MiniAOD_5044046_1000.root'])
 
-#events = Events(['/afs/cern.ch//work/a/amlevin/list_root/MiniAOD_5044046_1001.root'])
+events = Events(['/afs/cern.ch//work/a/amlevin/list_root/MiniAOD_5044046_1001.root'])
 
 #events = Events(['/afs/cern.ch//work/a/amlevin/list_root/MiniAOD_5044046_1002.root'])
 
@@ -54,5 +54,5 @@ for event in events:
 
     assert(n_photons == 1)    
 
-    print v_pho.Phi()    
+    print str(event.eventAuxiliary().event())+ " " +str(v_pho.Phi())
 
