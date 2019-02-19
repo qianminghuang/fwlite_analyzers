@@ -27,3 +27,4 @@ for event in events:
         print "electron.ecalEnergy() = " + str(electron.ecalEnergy())
         print "electron.correctedEcalEnergy() = " + str(electron.correctedEcalEnergy())
         print "electron.superCluster().energy() = "+str(electron.superCluster().energy())
+        print "electron.superCluster().rawEnergy() = "+str(electron.superCluster().rawEnergy())
