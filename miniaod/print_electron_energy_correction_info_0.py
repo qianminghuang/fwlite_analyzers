@@ -31,3 +31,4 @@ for event in events:
         print "el.pt() = "+str(el.pt())
         print "el.ecalEnergy() = "+str(el.ecalEnergy())
         print "el.correctedEcalEnergy() = "+str(el.correctedEcalEnergy())
+        print "el.superCluster().energy() = "+str(el.superCluster().energy())
