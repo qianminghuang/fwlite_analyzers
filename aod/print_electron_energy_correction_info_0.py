@@ -21,7 +21,9 @@ for event in events:
         continue
 
     for electron in electrons.product():
+
         print "electron.isEcalEnergyCorrected() = "+str(electron.isEcalEnergyCorrected())
         print "electron.pt() = "+str(electron.pt())
         print "electron.ecalEnergy() = " + str(electron.ecalEnergy())
         print "electron.correctedEcalEnergy() = " + str(electron.correctedEcalEnergy())
+        print "electron.superCluster().energy() = "+str(electron.superCluster().energy())
