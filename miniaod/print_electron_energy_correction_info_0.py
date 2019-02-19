@@ -23,9 +23,6 @@ for event in events:
     
     event.getByLabel(electronLabel, electrons)
 
-    print "electrons\n"
-
-    # Electrons
     for i,el in enumerate(electrons.product()):
         print "el.isEcalEnergyCorrected() = "+str(el.isEcalEnergyCorrected())
         print "el.pt() = "+str(el.pt())
