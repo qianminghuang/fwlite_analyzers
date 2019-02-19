@@ -27,5 +27,7 @@ for event in events:
 
     # Electrons
     for i,el in enumerate(electrons.product()):
-        if el.pt() < 5: continue
-        print el.pt()
+        print "el.isEcalEnergyCorrected() = "+str(el.isEcalEnergyCorrected())
+        print "el.pt() = "+str(el.pt())
+        print "el.ecalEnergy() = "+str(el.ecalEnergy())
+        print "el.correctedEcalEnergy() = "+str(el.correctedEcalEnergy())

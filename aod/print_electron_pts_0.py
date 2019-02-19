@@ -20,10 +20,8 @@ for event in events:
     if event.eventAuxiliary().event() != 6723769:
         continue
 
-    print ""
-    print "electrons:"
-    print ""
-
     for electron in electrons.product():
         print "electron.isEcalEnergyCorrected() = "+str(electron.isEcalEnergyCorrected())
         print "electron.pt() = "+str(electron.pt())
+        print "electron.ecalEnergy() = " + str(electron.ecalEnergy())
+        print "electron.correctedEcalEnergy() = " + str(electron.correctedEcalEnergy())
